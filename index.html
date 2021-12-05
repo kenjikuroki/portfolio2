@@ -13,14 +13,15 @@
     <!--googolefonts CSS-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="stylesheet.css">
+    
 
     <title>portfolio</title>
 </head>
 
 <body class="bg-light">
     <!--ヘッダー-->
-    <header class="sticky-top shadow-lg">
-        <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+    <header class="sticky-top ">
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark shadow-lg">
             <div class="container-fluid">
                 <a class="navbar-brand text-white" href="#">Portfolio</a>
                 <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse"
@@ -47,17 +48,17 @@
             </div>
         </nav>
     </header>
-    <div class="container bg-white py-5 my-5">
+    <div class="container bg-white py-5 mt-2 mb-5">
 
         <!--profile-->
         <div id="Profile">
             <h4 class="p-3 mb-3 bg-white"></h4>
-            <h2 class="text-center py-3 mb-md-4 display-1 ">Profile</h2>
+            <h1 class="text-center py-3 mb-md-4 display-1 ">Profile</h1>
         </div>
         <div class="row">
             <div class="col-md-4 col-12">
                 <div class="mx-5">
-                    <img class="img-fluid rounded-circle" src="img/idPhot2.JPG" alt="">
+                    <img class="img-fluid rounded-circle border" src="img/idPhot2.JPG " alt="">
                 </div>
                 <p class="text-center py-1 m-4">
                     黒木 研次
@@ -66,10 +67,10 @@
             </div>
             <div class="col-md-8 col-12">
                 <div class="py-4">
-                    <h5 class="d-inline-block py-5 mr-5">
-                        現在は営業職に就おりますが、場所に囚われない新しい働き方を求めて転職活動を始めました。
-                        <br>スクールでPHPを中心に学んでおります。コーディングによって便利で豊かな生活を提供するエンジニアは、大変魅力的でやりがいのある職種だと感じております。
-                    </h5>
+                    <p class="d-inline-block py-5 mx-2">
+                        現職は営業職に勤めておりますが、場所に囚われない新しい働き方を求めて転職活動を始めました。
+                        <br>現在スクールでPHPを中心に学んでおります。コーディングによって便利で豊かな生活を提供するエンジニアは、大変魅力的でやりがいのある職種だと感じております。
+                    </p>
                 </div>
             </div>
         </div>
@@ -77,82 +78,81 @@
         <!--Skills-->
         <div id="Skills">
             <h4 class="p-1 mb-1 bg-white "></h4>
-            <h2 class="text-center mt-lg-5 mb-md-5 display-1 py-3">Skills</h2>
+            <h2 class="text-center mt-lg-5 mb-md-3 display-1 py-3">Skills</h2>
         </div>
-
         <div class="row justify-content-center">
-            <div class="card mb-4 mx-3" style="width: 18rem;">
-                <img src="img/d.jpg" class="card-img-top img-thumbnail mt-2" alt="...">
+            <div class="card mb-4 mx-3 shadow" style="width: 18rem;">
+                <img src="img/html.png" class="card-img-top img-thumbnail mt-2" alt="...">
                 <div class="card-body">
-                    <h5 class="card-title">HTML/CSS</h5>
+                    <h5 class="card-title fw-bold">HTML/CSS</h5>
                     <p class="card-text">レスポンシブに対応したサイトのコーディングができます。</p>
-                    <a href="samurai/bootstrap/index.html" class="btn btn-primary">Go somewhere</a>
+                    <a href="samurai/bootstrap/index.html" class="btn btn-secondary">Go somewhere</a>
                 </div>
             </div>
-            <div class="card mb-4 mx-3" style="width: 18rem;">
-                <img src="img/f.jpg" class="card-img-top img-thumbnail mt-2" alt="...">
+            <div class="card mb-4 mx-3 shadow" style="width: 18rem;">
+                <img src="img/javascript.png" class="card-img-top img-thumbnail mt-2" alt="...">
                 <div class="card-body">
-                    <h5 class="card-title">JavaScript</h5>
+                    <h5 class="card-title fw-bold">JavaScript</h5>
                     <p class="card-text">変数、メソッドやクラス、DOM操作などを活用して動的な表現を実装できます。
                     </p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="#" class="btn btn-secondary">Go somewhere</a>
                 </div>
             </div>
-            <div class="card mb-4 mx-3" style="width: 18rem;">
+            <div class="card mb-4 mx-3 shadow" style="width: 18rem;">
                 <img src="img/bootstrap.png" class="card-img-top img-thumbnail mt-2" alt="...">
                 <div class="card-body">
-                    <h5 class="card-title">Bootstrap</h5>
+                    <h5 class="card-title fw-bold">Bootstrap</h5>
                     <p class="card-text">フレームワークを使用してwebサイトの作成ができます。</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="#" class="btn btn-secondary">Go somewhere</a>
                 </div>
             </div>
-            <div class="card mb-4 mx-3" style="width: 18rem;">
-                <img src="img/e.jpg" class="card-img-top img-thumbnail mt-2" alt="...">
+            <div class="card mb-4 mx-3 shadow" style="width: 18rem;">
+                <img src="img/jquery.png" class="card-img-top img-thumbnail mt-2 py-5" alt="...">
                 <div class="card-body">
-                    <h5 class="card-title">jQuely</h5>
+                    <h5 class="card-title fw-bold">jQuely</h5>
                     <p class="card-text">jQueryを使用して動的な表現を実装できます。</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="#" class="btn btn-secondary">Go somewhere</a>
                 </div>
             </div>
-            <div class="card mb-4 mx-3" style="width: 18rem;">
-                <img src="img/e.jpg" class="card-img-top img-thumbnail mt-2" alt="...">
+            <div class="card mb-4 mx-3 shadow" style="width: 18rem;">
+                <img src="img/php.png" class="card-img-top img-thumbnail mt-2　py-5" alt="...">
                 <div class="card-body">
-                    <h5 class="card-title">PHP</h5>
+                    <h5 class="card-title fw-bold">PHP</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
                         card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="#" class="btn btn-secondary">Go somewhere</a>
                 </div>
             </div>
-            <div class="card mb-4 mx-3" style="width: 18rem;">
-                <img src="img/e.jpg" class="card-img-top img-thumbnail mt-2" alt="...">
+            <div class="card mb-4 mx-3 shadow" style="width: 18rem;">
+                <img src="img/laravel-1.png" class="card-img-top img-thumbnail mt-2" alt="...">
                 <div class="card-body">
-                    <h5 class="card-title">Lalavel</h5>
+                    <h5 class="card-title fw-bold">Lalavel</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
                         card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="#" class="btn btn-secondary">Go somewhere</a>
                 </div>
 
             </div>
         </div>
         <div>
-            <p class="py-3 mx-5">営業職にてコミュニケーション能力、リーダーシップやマネジメントを学びました。営業職で得たスキルはどの職種でも役に立つものだと考えております。
-                <br>プログラミングに関してはは独学とスクールで７ヶ月学習しており、コーディングだけでなくgithubでバージョン管理、共同作業の方法等エンジニアに必要な知識も学ばせていただいております。
+            <p class="py-3 mx-3">営業職にてコミュニケーション能力、リーダーシップやマネジメントを学びました。営業職で得たスキルはどの職種でも役に立つものだと考えております。
+                <br>プログラミングに関しては、独学とスクールで７ヶ月学習しており、コーディングだけでなくgithubでバージョン管理、共同作業の方法等エンジニアに必要な知識も学ばせていただいております。
             </p>
         </div>
-        　　　
-
 
         <!--Works-->
         <div id="Works">
             <h4 class="p-1 mb-1 bg-white"></h4>
-            <h2 class="text-center mt-lg-5 mb-md-5 display-1 py-3">Work</h2>
+            <h2 class="text-center mt-lg-5 mb-md-3 display-1 py-3">Work</h2>
         </div>
         <div>
             <div class="d-flex flex-wrap justify-content-center">
                 <div class="col-md-12 col-12 p-0 align-self-center">
-                    <img class="img-fluid img-thumbnail" src="img/g.jpeg">
-                    <p class="py-3">
-                        日々の営業職でもっと使いやすいTODOリストのアプリケーションがあればと思い作成しました。ルート営業職は反復行為が多いため、そういったニーズに合うように工夫しました。</p>
+                    <img class="img-fluid img-thumbnail shadow" src="img/g.jpeg">
+                    <p class="py-3 mx-3">
+                        日々の営業職でもっと使いやすいTODOリストのアプリケーションがあればと思い作成しました。
+                        ルート営業職は反復行為が多いため、そういったニーズに合うように工夫しています。
+                    </p>
                 </div>
             </div>
         </div>
@@ -165,31 +165,47 @@
                 <h4 class="p-1 mb-1 bg-white"></h4>
                 <h2 class="text-center mt-lg-5 mb-md-4 display-1 py-3">Contact</h2>
             </div>
-            <div class="row">
+            <div class="row mb-5">
                 <div class="col-md-4 col-12">
-                    <div class="py-4">
-                        <h4 class="d-inline-block py-3 border-bottom border-info">Mail</h4>
-                    </div>
-                    <div class="mx-5">
 
+                    <!--mail-->
+                    <div class="alert alert-secondary shadow">
+                        <h4 class=" py-2 text-center">Mail</h4>
+                        <form method="post" action="">
+                            <div class="form-group">
+                                <input type="email" name="email" class="form-control m-2" placeholder="メールアドレス">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" name="name" class="form-control m-2" placeholder="お名前">
+                            </div>
+                            <div class="form-group">
+                                <textarea rows="4" cols="50" placeholder="お問い合わせ内容" name="text" type="text"
+                                    class="form-control m-2"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-secondary m-2">送信</button>
+                        </form>
                     </div>
-                    <p>
-                        プログラミング学習中です。あああああああああああああああああああああああああああ
-                    </p>
                 </div>
-                <div class="col-md-4 col-12">
-                    <div class="py-4">
-                        <h4 class="d-inline-block py-3 border-bottom border-info">Github</h4>
-                    </div>
 
-                </div>
+                <!--github-->
                 <div class="col-md-4 col-12">
-                    <div class="py-4">
-                        <h4 class="d-inline-block py-3 border-bottom border-info">Twitter</h4>
+                    <div class="alert alert-secondary shadow">
+                        <h4 class="py-2 text-center">Github</h4>
+                        <img src="img/github.png" class="card-img-top img-thumbnail rounded" alt="...">
+                        <a class="btn btn-secondary my-4" href="https://github.com/kenjikuroki" role="button">github</a>
+                        <h3 class="p-1 m-2"></h3>
                     </div>
-                    <a class="twitter-timeline" data-lang="ja" data-height="500"
-                        href="https://twitter.com/x61CfYfnFiFsaDg?ref_src=twsrc%5Etfw">Tweets by x61CfYfnFiFsaDg</a>
-                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                   
+                </div>
+
+                <!--twitter-->
+                <div class="col-md-4 col-12">
+                    <div class="alert alert-secondary shadow">
+                        <h4 class="py-2 text-center">Twitter</h4>
+                        <a class="twitter-timeline" data-lang="ja" data-height="255"
+                            href="https://twitter.com/x61CfYfnFiFsaDg?ref_src=twsrc%5Etfw">Tweets by x61CfYfnFiFsaDg</a>
+                        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    </div>
                 </div>
             </div>
         </div>
