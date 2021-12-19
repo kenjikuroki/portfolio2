@@ -8,6 +8,18 @@ body {
       font-family: 'Yellowtail', cursive;
     
   }
+  
+  .fadeIn_left {
+    opacity: 0;
+    transform: translate(-50%, 0);
+    transition: 2s;
+  }
+  .fadeIn_left.is-show {
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+
+
 
   h5 {
     font-family: 'Noto Sans JP', sans-serif;
