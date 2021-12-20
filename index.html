@@ -235,10 +235,15 @@
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script>
    $(function(){
-  $(".inview").on("inview", function (event, isInView) {
-    if (isInView) {
-      $(this).stop().addClass("is-show");
-    }
+    $(window).scroll(function (){
+        $('.container').each(function(){
+            var position = $(this).offset().top;
+            var scroll = $(window).scrollTop();
+            var windowHeight = $(window).height();
+            if (scroll > position - windowHeight + 200){
+              $(this).addClass('active');
+            }
+        });
   });
 });
        
