@@ -48,8 +48,13 @@
             </div>
         </nav>
     </header>
-    <div class="container bg-white py-5 mt-2 mb-5">
+     <!--title-->
+        
+     <div id="head_picture">
+        <img class="bg-image" src="img/tropical-beach.jpeg" alt="">
+    </div>
 
+    <div class="container bg-white py-5 mt-2 mb-5">  
         <!--profile-->
         <div class="container">
             <div id="Profile" class="subTitle">
@@ -234,19 +239,19 @@
     <script src="jquery-3.6.0.min.js"></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script>
-   $(function(){
-    $(window).scroll(function (){
-        $('.container').each(function(){
-            var position = $(this).offset().top;
-            var scroll = $(window).scrollTop();
-            var windowHeight = $(window).height();
-            if (scroll > position - windowHeight + 200){
-              $(this).addClass('active');
-            }
+        $(function () {
+            $(window).scroll(function () {
+                $('.container').each(function () {
+                    var position = $(this).offset().top;
+                    var scroll = $(window).scrollTop();
+                    var windowHeight = $(window).height();
+                    if (scroll > position - windowHeight + 200) {
+                        $(this).addClass('active');
+                    }
+                });
+            });
         });
-  });
-});
-       
+
     </script>
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--
